@@ -1,0 +1,53 @@
+.converter {
+  padding: 11px 0 110px;
+}
+
+.form {
+  padding: 16px 0 15px;
+}
+
+.form__row {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 85px;
+}
+
+.form__currency {
+  flex: 1;
+}
+
+.form__arrows {
+  margin: 0 34px;
+  padding: 10px 0;
+  align-self: flex-end;
+}
+
+.form label {
+  font-size: 22px;
+  line-height: 30px;
+  font-weight: 500;
+  display: inline-block;
+  margin-bottom: 22px;
+}
+
+.form__summ {
+  display: flex;
+  gap: 15px;
+}
+
+.form__summ,
+.form__date {
+  input {
+    width: 390px;
+  }
+}
+
+.form__summ {
+  select {
+    flex: 1;
+  }
+}
+
+.form__submit {
+  width: 382px;
+}

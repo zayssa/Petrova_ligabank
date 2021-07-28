@@ -1,0 +1,82 @@
+@import "./fonts.scss";
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Roboto", "Arial", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+input[type="number"],
+input[type="date"] {
+  box-sizing: border-box;
+  padding: 7px;
+  border-radius: 4px;
+  border: 1px solid #1f1e25;
+  font-size: 30px;
+  line-height: 42px;
+  text-align: center;
+  font-family: Roboto, sans-serif;
+}
+
+input[type="date"]::-webkit-calendar-picker-indicator {
+  width: 41px;
+  height: 44px;
+  margin: -4px 11px 0 0;
+  padding: 0;
+  background: url("../img/calendar.svg");
+}
+
+select {
+  height: 60px;
+  border-radius: 4px;
+  border: 1px solid #1f1e25;
+  text-align: center;
+  text-align-last: center;
+  font-size: 30px;
+  line-height: 42px;
+  font-family: Roboto, sans-serif;
+  padding: 8px 38px 8px 8px;
+  -webkit-appearance: none;
+  background: url("../../shared/img/select.svg") top 50% right 15px no-repeat;
+}
+
+.button {
+  color: #f6f7ff;
+  border: 1px solid #2c36f2;
+  font-size: 16px;
+  line-height: 18px;
+  padding: 16px 28px 15px 28px;
+  font-weight: 500;
+  border-radius: 4px;
+  background: #2c36f2;
+  font-family: "Roboto", sans-serif;
+}
+
+.button_big {
+  padding: 13px 35px;
+  font-size: 18px;
+  line-height: 25px;
+}
+
+.button_gray {
+  border-color: #f6f7ff;
+  background: #f6f7ff;
+  color: #1f1e25;
+}
+
+.wrapper {
+  width: 100%;
+  max-width: 1170px;
+  margin: auto;
+  padding: 0 20px;
+}
+
+h1 {
+  font-size: 41px;
+  line-height: 57px;
+  font-weight: bold;
+  color: #1f1e25;
+}
